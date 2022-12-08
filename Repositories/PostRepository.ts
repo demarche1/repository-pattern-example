@@ -1,5 +1,5 @@
 import { SchemaType, Types } from 'mongoose';
-import { AbstractRepository } from "../MongoDB/AbastractRepository";
+import { AbstractRepository } from "../MongoDB/AbstractRepository";
 
 interface Post {
   _id: SchemaType<Types.ObjectId>|undefined;

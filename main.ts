@@ -12,7 +12,7 @@ async function Main() {
     console.log("Creating a new post");
   
     const post = await postRepository.create({
-      title: "Hello World 2",
+      title: "Hello World 3",
       content: "This is my first post",
     });
   
